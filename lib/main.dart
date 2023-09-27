@@ -1,14 +1,10 @@
-import 'package:app_complete2/addUser.dart';
-import 'package:app_complete2/gemExample.dart';
-import 'package:app_complete2/home.dart';
 import 'package:app_complete2/login.dart';
-import 'package:app_complete2/menuOpts.dart';
-import 'package:app_complete2/settings.dart';
+import 'package:app_complete2/sliddingUpPanel.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(home: home()), // use MaterialApp
+    const MaterialApp(home: slidingUpPanel()), // use MaterialApp
   );
 }
 
